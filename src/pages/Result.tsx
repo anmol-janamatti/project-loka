@@ -23,7 +23,7 @@ export default function Result() {
     return null;
   }
 
-  const isExoplanet = result.prediction === 'Exoplanet';
+  const isExoplanet = result.prediction === 'CANDIDATE';
 
   return (
     <div
