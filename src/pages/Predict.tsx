@@ -34,7 +34,7 @@ export default function Predict() {
     setLoading(true);
 
     try {
-      const response = await fetch('https://backend-exo.onrender.com/predict', {
+      const response = await fetch('https://backend-exo-production.up.railway.app/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
